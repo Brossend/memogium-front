@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Memogium",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "src/assets"
+}
