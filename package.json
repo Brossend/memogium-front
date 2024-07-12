@@ -2,7 +2,7 @@
   "name": "memogium-front",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "memogium",
+  "productName": "Memogium",
   "author": "Ivan <90147664+Brossend@users.noreply.github.com>",
   "private": true,
   "scripts": {
