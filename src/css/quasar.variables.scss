@@ -1,11 +1,26 @@
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+@import "imports";
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+:root {
+  --main-font: 'Inter', sans-serif;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+  --primary        : #E9EAFF;
+  --secondary      : #7381FF;
+  --tertiary       : #5D6CF3;
+  --accent         : #7381FFBF;
+
+  --black-100      : #202020;
+  --black-80       : #202020CC;
+  --black-65       : #202020A6;
+  --black-50       : #20202080;
+  --black-20       : #20202033;
+
+  --white-100      : #FFFFFF;
+  --white-95       : #FFFFFFF2;
+
+  --gray           : #F4F4F4;
+
+  --gray-light-100 : #999999;
+  --gray-light-50  : #99999933;
+
+  --red            : #FF4F4F;
+}
