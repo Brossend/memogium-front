@@ -1,5 +1,5 @@
-import { store } from 'quasar/wrappers'
-import { createPinia } from 'pinia'
+import { store } from 'quasar/wrappers';
+import { createPinia } from 'pinia';
 import { Router } from 'vue-router';
 
 declare module 'pinia' {
@@ -9,7 +9,5 @@ declare module 'pinia' {
 }
 
 export default store(() => {
-  const pinia = createPinia()
-
-  return pinia
+  return createPinia();
 })
